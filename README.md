@@ -4,7 +4,7 @@ Codes for my waiter robot.
 <h3>MOVEMENT FIRST PART</h3>
 
 <h5>DONE:</h5> 
-Based on  the example for q learnign of https://visualstudiomagazine.com/articles/2018/10/18/q-learning-with-python.aspx 
+Based on  the example for q learnign of https://visualstudiomagazine.com/articles/2018/10/18/q-learning-with-python.aspx <br>
 <em>-The agent needs to go to all the people and then go back to its spot. <br>
 -It chooses the order in which to go to all the people by looking at the euclidean distance that it would travel in each permutation possible. And chooses the permutation with the lowest overall distance.</em>
 
