@@ -1,42 +1,40 @@
 # robot-mesero
 Codes for my waiter robot.
 
-MOVEMENT FIRST PART*******************************************************************************************
+<h3>MOVEMENT FIRST PART</h3>
 
----DONE: 
----The agent needs to go to all the people and then go back to its spot
----It chooses the order in which to go to all the people by looking at the euclidean distance that it would 
----travel in each permutation possible.
----and choosing the permutation with the lowest overall distance.
+DONE: 
+<em>-The agent needs to go to all the people and then go back to its spot. <br>
+-It chooses the order in which to go to all the people by looking at the euclidean distance that it would travel in each permutation possible. And chooses the permutation with the lowest overall distance.</em>
 
-706qlearning. The agent walks to the first person without crashing into other people or objects.
-It has a Q matrix for the target person.
+<p>706qlearning. The agent walks to the first person without crashing into other people or objects.
+It has a Q matrix for the target person.<br>
 
 1306qlearning. The agent goes to the first person and then returns to its spot without crashing into other 
 people or objects.
-It has a Q matrix for the target person and for its spot.
+It has a Q matrix for the target person and for its spot.<br>
 
 1706qlearning. The agent goes to all the people and then returns to its spot without crashing into other 
-people or objects. 
-It has a Q matrix where it learnt how to go to each person, and one for its spot.
+people or objects.
+It has a Q matrix where it learnt how to go to each person, and one for its spot.</p>
 
-SIMULATION MOVEMENT FOR THE REAL WORLD IMPLEMENTATION COMING*************************************************
----CURRENTLY WORKING ON: 
----A Voronoi algorithm will be fused with a modified version of the previous movement algorithm.
+<h3>SIMULATION MOVEMENT FOR THE REAL WORLD IMPLEMENTATION COMING</h3>
+CURRENTLY WORKING ON: 
+<em>-A Voronoi algorithm will be fused with a modified version of the previous movement algorithm.</em>
 
-MOVEMENT REAL WORLD******************************************************************************************
----COMING UP:
----Mapping with a Lidar and sensors
----Using this map with its necessary adaptation of the algorithm of movement for the real world.
+<h3>MOVEMENT REAL WORLD</h3>
+COMING UP:
+<em>-Mapping with a Lidar and sensors
+-Using this map with its necessary adaptation of the algorithm of movement for the real world.</em>
 
-IMAGE PROCESSING********************************************************************************************
----COMING UP:
----Reading QR codes to detect the waiter is needed and to know in what table the person that is calling the 
-robot is seated on.
+<h3>IMAGE PROCESSING</h3>
+COMING UP:
+<em>-Reading QR codes to detect the waiter is needed and to know in what table the person that is calling the 
+robot is seated on.</em>
 
-MOVEMENT AND IMAGE PROCESSING FUSION*************************************************************************
----COMING UP:
----
+<h3>MOVEMENT AND IMAGE PROCESSING FUSION</h3>
+COMING UP:
+<em> </em>
 
 
 
